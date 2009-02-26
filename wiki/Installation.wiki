@@ -1,0 +1,42 @@
+#summary One-sentence summary of this page.
+#labels Featured,Phase-Deploy,Phase-Requirements
+
+= Requirements =
+
+ * PHP 5 or higher
+ * MySQL 4 or higher
+ * GD2 extension
+
+
+= Installation =
+
+ * Download the lastest version of Stash.
+ * Unpack the archive and upload the contents of the stash-x.y.z directory to a location on your webserver.
+ * Manually create a directory named "*uploads*/" that is in the same directory as where you uploaded the files in step 2
+ * Manually create two directories in "uploads/" one named "*releases*/" and the other named "*mp3*/"
+ * Manually create a directory in "uploads/releases/" named "*thumbs*/"
+
+Set write permissions (chmod 777) on the following files and directories:
+    * uploads/
+    * uploads/mp3/
+    * uploads/releases/
+    * uploads/releases/thumbs
+    * admin/config.php
+    * admin/template/
+    * admin/template/comments.tpl.php
+    * admin/template/discography.tpl.php
+    * admin/template/featurednews.tpl.php
+    * admin/template/featuredreleases.tpl.php
+    * admin/template/featuredtourdates.tpl.php
+    * admin/template/featuredvideos.tpl.php
+    * admin/template/news.tpl.php
+    * admin/template/newsarticle.tpl.php
+    * admin/template/pagination.tpl.php
+    * admin/template/releasepage.tpl.php
+    * admin/template/tourdates.tpl.php
+    * admin/template/tracklisting.tpl.php
+    * admin/template/videos.tpl.php
+
+
+Create a database.
+Point your browser to http://yoursite.com/stash-directory/install in order to launch the web installer and follow the remaining steps.
